@@ -1,2 +1,20 @@
-# Hossam-AI-OneState
-Hossam AI - OneState Rules Assistant
+# Hossam AI – OneState Rules
+
+مساعد عربي مبسط لتحليل مخالفات OneState اعتماداً على قاعدة القوانين المرفقة.
+
+## التشغيل محلياً
+1. `pip install -r requirements.txt`
+2. عيّن متغير البيئة `GEMINI_API_KEY` بمفتاح Google AI Studio.
+3. `uvicorn main:app --reload`
+4. افتح `http://127.0.0.1:8000`
+
+## النشر على Render
+1. ارفع ملفات هذا المشروع إلى GitHub.
+2. في Render اختر New + ثم Blueprint واربط المستودع.
+3. أضف `GEMINI_API_KEY` في Environment في Render فقط.
+4. لا تضع مفتاح API في GitHub أو داخل ملفات الواجهة.
+
+## ملاحظات
+- الموقع يقدم توصيات ولا ينفذ العقوبات.
+- قاعدة المعرفة تحتوي نقاطاً غير محسومة؛ يجب أن يعرض المساعد «تحتاج مراجعة» عند غياب البيانات.
+- لا تعتبر خيارات الإدارة غير المؤكدة أسماء رسمية.
