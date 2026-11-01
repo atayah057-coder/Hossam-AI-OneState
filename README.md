@@ -18,3 +18,11 @@
 - الموقع يقدم توصيات ولا ينفذ العقوبات.
 - قاعدة المعرفة تحتوي نقاطاً غير محسومة؛ يجب أن يعرض المساعد «تحتاج مراجعة» عند غياب البيانات.
 - لا تعتبر خيارات الإدارة غير المؤكدة أسماء رسمية.
+
+
+## Groq API configuration
+Set these Render environment variables:
+- `GROQ_API_KEY`: your private Groq API key
+- `GROQ_MODEL`: `openai/gpt-oss-120b`
+
+Do not expose the API key in frontend files or screenshots.
